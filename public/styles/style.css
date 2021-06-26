@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  img {
+    padding: 16px;
+  }
